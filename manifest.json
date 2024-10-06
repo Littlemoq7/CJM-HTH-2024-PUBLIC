@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "MyBaldwin",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "action": {
+    "default_popup": "first.html",
+    "default_icon": "baldwin_icon.png"
+  },
+  "permissions": [
+    "storage"
+  ]
+}

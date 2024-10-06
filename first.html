@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Buddy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>MyBaldwin</h1>
+        <!-- Motivational Quote Section -->
+        <div class="quote">
+            <p id="quote">Hey there, it's Baldwin.</p>
+        </div>
+
+        <!-- Timer Section -->
+        <div class="timer">
+            <h2>Study Timer</h2>
+            <p id="timer">25:00</p>
+            <button id="timerStartButton">Start</button>
+            <button id="timerPauseButton">Pause</button>
+            <button id="timerResetButton">Reset</button>
+            <div class="timer-input-container">
+                <input type="text" id="timer-input-minutes" placeholder="Enter minutes">
+                <input type="text" id="timer-input-seconds" placeholder="Enter seconds">
+                <button id="enterTimeButton">Enter</button>
+            </div>
+        </div>
+
+        <!-- Goals List Section -->
+        <div class="goals">
+            <h2>Goals</h2>
+            <ul id="goals-list">
+            </ul>
+            <div class="input-container">
+                <input type="text" id="new-task" placeholder="New task">
+                <button id="addTaskButton">Add</button>
+            </div>
+        </div>
+
+        <!-- Chat bot section -->
+        <div class="chatBotContainer">
+            <div class="image-text-container">
+                <img src="baldwin_icon.png">
+                <p id="bot-output-text">Hi, I'm Baldwin! Feel free to ask me about study habits or mental wellness!</p>
+            </div>
+            <div class="chat-input-container">
+                <input type="text" id="chat-user-input" placeholder="Ask Baldwin a question">
+                <button id="askQuestionButton">Enter</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
